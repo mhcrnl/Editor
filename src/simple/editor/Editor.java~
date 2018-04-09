@@ -140,12 +140,6 @@ public class Editor extends JFrame implements ActionListener, DocumentListener {
   JMenu help = new JMenu("Help");
   menu.add(help);
   help.setMnemonic('H');
-  //About
-  JMenuItem about = new JMenuItem("About");
-  about.setMnemonic('B');
-  about.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_B, InputEvent.CTRL_DOWN_MASK));
-  about.addActionListener(this);
-  help.add(about);
  }
 
  @Override

@@ -1,0 +1,27 @@
+;; DrJava project file, written by build drjava-20160913-225446
+;; files in the source tree are relative to: /home/mhcrnl/Downloads/02JavaJarFile2018/Editor/src/simple/editor
+;; other files with relative paths are rooted at (the parent of) this project file
+(proj-root-and-base
+  (file (name "")))
+(source-files
+  (file (name "Editor.java")
+        (select 375 375)(scroll 0 0)(mod-date "07-Apr-2018 13:33:44")
+        (package ""))
+  (file (name "FindDialog.java")
+        (select 375 375)(scroll 0 0)(mod-date "07-Apr-2018 13:28:13")
+        (package "")))
+;; no aux files
+;; no collapsed branches
+;; no classpaths files
+;; no build directory
+(work-dir
+  (file (name "")))
+;; rooted at the (parent of the) project file
+(main-class
+ )
+(create-jar-file
+  (file (name "")))
+;; no create jar flags
+;; no breakpoints
+;; no watches
+;; no bookmarks
