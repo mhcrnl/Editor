@@ -144,8 +144,15 @@ public class Editor extends JFrame implements ActionListener, DocumentListener {
   JMenuItem about = new JMenuItem("About");
   about.setMnemonic('B');
   about.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_B, InputEvent.CTRL_DOWN_MASK));
-  about.addActionListener(this);
+  /*Adaugarea unei actiuni meniului About*/
+  about.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e){
+    System.out.println("Meniul About actionat.");
+   }
+  });
+//  Adaugarea itemului About la meniul Help
   help.add(about);
+  /*END ABOUT*/
  }
 
  @Override

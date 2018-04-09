@@ -1,13 +1,11 @@
 Editor
 ======
+A basic **text** editor written in Java. This file was writen in Editor.
 
-# E1
-###### EEE 
+## Install and run
 
-> test
-> test 2 
+```
+$ git clone https://github.com/mhcrnl/Editor.git
+```
+run comand from src/simple/editor/runjava.sh
 
-
-
-
-A basic **text** editor written in Java for proof of concept.
